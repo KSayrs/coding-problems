@@ -46,10 +46,10 @@ def swap(key_list, chars):
     return encrypt_small
 
 inp = sys.stdin.read()
-start = inp.split("\n")
+inp = inp.split("\n")
 
-keys = start[:-1:2]   # list of all the keys
-text = start[1:-1:2]  # list of all the messages
+keys = inp[:-1:2]   # list of all the keys
+text = inp[1:-1:2]  # list of all the messages
 amount = len(text)
 
 for item in range(amount):

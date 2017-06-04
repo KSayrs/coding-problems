@@ -52,9 +52,9 @@ def collatz_y(y):
 
 
 inp = sys.stdin.read()
-i = inp.split("\n")
+inp = inp.split("\n")
 
-for item in i:
+for item in inp:
     line = item.split(" ")
     if line[0] != "":
         if line[0] and line[1] != "0":
